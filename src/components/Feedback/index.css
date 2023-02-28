@@ -1,0 +1,89 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.emoji-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 40vh;
+  width: 40vw;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .emoji-container {
+    min-height: 40vh;
+    min-width: 40vw;
+  }
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.emoji {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .emoji {
+    min-height: 60px;
+    min-width: 60px;
+  }
+}
+.expression {
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .expression {
+    font-size: 20px;
+  }
+}
+.love-image {
+  height: 50px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .love-image {
+    height: 70px;
+    width: 70px;
+  }
+}
+.description {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
